@@ -23,6 +23,7 @@
   <img alt="Tailwind CSS" src="https://img.shields.io/badge/-Tailwind%20CSS-05122A?style=flat&logo=tailwind-css" />
   <img alt="Laravel" src="https://img.shields.io/badge/-Laravel-05122A?style=flat&logo=laravel" />
   <img alt="React" src="https://img.shields.io/badge/-React-05122A?style=flat&logo=react" />
+  <img alt="Next.js" src="https://img.shields.io/badge/-Next.js-05122A?style=flat&logo=next.js" />
   <img alt="Node.js" src="https://img.shields.io/badge/-Node.js-05122A?style=flat&logo=node.js" />
   <img alt="Express.js" src="https://img.shields.io/badge/-Express.js-05122A?style=flat&logo=express" />
   <img alt="MySQL" src="https://img.shields.io/badge/-MySQL-05122A?style=flat&logo=mysql" />
