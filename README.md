@@ -34,6 +34,7 @@ I'm a self-taught Web Developer from Indonesia.
 
 ## GitHub Stats
 
-![fauzan-radji's Stats](https://github-readme-stats.vercel.app/api?username=fauzan-radji&theme=onedark&show_icons=true&hide_border=true&count_private=true)
-![fauzan-radji's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=fauzan-radji&theme=onedark&show_icons=true&hide_border=true&layout=compact)
-![GitHub Streak](https://streak-stats.demolab.com?user=fauzan-radji&theme=onedark&hide_border=true)
+![fauzan-radji's Stats](https://github-readme-stats.vercel.app/api?username=fauzan-radji&theme=onedark&show_icons=true&hide_border=true&count_private=true)\
+![fauzan-radji's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=fauzan-radji&theme=onedark&show_icons=true&hide_border=true&layout=compact)\
+![fauzan-radji's GitHub Streak](https://streak-stats.demolab.com?user=fauzan-radji&theme=onedark&hide_border=true)\
+![fauzan-radji's Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=fauzan-radji&theme=one-dark&radius=10&hide_border=true&area=true&title_color=e4bf7a&color=8eb573&point=df6d74)
