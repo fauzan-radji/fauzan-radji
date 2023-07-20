@@ -2,12 +2,12 @@ import profilePict from "./assets/profile-pict.png";
 
 export default function App() {
   return (
-    <div className="flex justify-center items-center min-h-[100dvh]">
-      <div className="w-full">
-        <div className="flex flex-col gap-8 container items-center mx-auto px-6">
-          <div className="relative aspect-square w-60">
+    <div className="flex min-h-[100dvh] max-w-full flex-col justify-start overflow-x-hidden bg-slate-300 text-slate-950">
+      <section className="relative rounded-b-[3rem] bg-slate-950 py-24 text-slate-50 shadow-xl shadow-slate-500/40 md:rounded-b-[5rem]">
+        <div className="container mx-auto flex flex-col items-center gap-8 px-6 landscape:flex-row-reverse landscape:justify-between landscape:px-20">
+          <div className="relative flex aspect-square w-80 items-center justify-center md:aspect-auto md:h-[28rem]">
             <svg
-              className="text-gray-600 w-full aspect-square absolute inset-0 m-auto animate-spin [animation-duration:64s]"
+              className="absolute bottom-2 aspect-square h-4/5 animate-spin text-slate-600 [animation-duration:64s]"
               viewBox="0 0 900 900"
               xmlns="http://www.w3.org/2000/svg"
               version="1.1"
@@ -22,17 +22,35 @@ export default function App() {
             <img
               src={profilePict}
               alt="Fauzan Radji"
-              className="rounded-b-full absolute w-4/5 aspect-[2/3] bottom-0 mx-auto left-3 right-0  object-contain"
+              className="absolute bottom-0 ml-4 aspect-[2/3] h-full rounded-b-full object-contain"
             />
           </div>
-          <div className="flex flex-col text-center gap-2">
-            <h1 className="text-3xl font-bold underline">
-              Hello there! 👋 I&apos;m&nbsp;Fauzan
+          <div className="flex flex-col gap-2 text-center md:gap-4 md:text-left">
+            <h1 className="text-3xl font-bold md:text-5xl">
+              👋 Hello there! I&apos;m&nbsp;Fauzan
             </h1>
-            <h3>I&apos;m a self taught web developer</h3>
+            <h3 className="md:text-xl">I&apos;m a self taught web developer</h3>
           </div>
         </div>
-      </div>
+      </section>
+
+      {/* About Section */}
+      <section>
+        <div className="container mx-auto flex flex-col items-center gap-4 bg-slate-300 px-6 pb-4 pt-8">
+          <h2 className="text-2xl font-bold">About</h2>
+          <div className="flex gap-4">
+            <p className="flex-1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+              nemo aliquid eveniet alias recusandae cum quae rerum earum dolorem
+              expedita.
+            </p>
+            <p className="flex-1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+              veniam amet a optio provident? Aut!
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
