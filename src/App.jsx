@@ -1,9 +1,11 @@
+import { Card } from "./Components";
+import Heading from "./Components/Heading";
 import profilePict from "./assets/profile-pict.png";
 
 export default function App() {
   return (
-    <div className="flex min-h-[100dvh] max-w-full flex-col justify-start overflow-x-hidden bg-slate-300 text-slate-950">
-      <section className="relative rounded-b-[3rem] bg-slate-950 py-24 text-slate-50 shadow-xl shadow-slate-500/40 md:rounded-b-[5rem]">
+    <div className="flex min-h-[100dvh] max-w-full flex-col justify-start overflow-x-hidden bg-slate-200 text-slate-950">
+      <section className="rounded-b-[3rem] bg-slate-950 py-24 text-slate-50 shadow-xl shadow-slate-500/40 md:rounded-b-[5rem]">
         <div className="container mx-auto flex flex-col items-center gap-8 px-6 landscape:flex-row-reverse landscape:justify-between landscape:px-20">
           <div className="relative flex aspect-square w-80 items-center justify-center md:aspect-auto md:h-[28rem]">
             <svg
@@ -35,19 +37,33 @@ export default function App() {
       </section>
 
       {/* About Section */}
-      <section>
-        <div className="container mx-auto flex flex-col items-center gap-4 bg-slate-300 px-6 pb-4 pt-8">
-          <h2 className="text-2xl font-bold">About</h2>
-          <div className="flex gap-4">
+      <section className="rounded-b-[3rem] bg-gradient-to-b from-transparent to-slate-300 px-6 py-20 md:rounded-b-[5rem]">
+        <div className="container mx-auto flex flex-col items-center gap-4">
+          <Heading>About</Heading>
+          <div className="flex max-w-3xl flex-col gap-4 md:flex-row">
             <p className="flex-1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-              nemo aliquid eveniet alias recusandae cum quae rerum earum dolorem
-              expedita.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus asperiores eligendi error sunt! Repellendus eligendi
+              nulla, ullam reiciendis, provident corrupti at in libero porro
+              incidunt cupiditate dolor fuga. Reprehenderit, inventore!
             </p>
             <p className="flex-1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-              veniam amet a optio provident? Aut!
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas vel
+              consequuntur aliquid eius incidunt at magnam illo fugit. Non
+              necessitatibus obcaecati quidem ipsum consequuntur repudiandae
+              recusandae labore ut debitis fuga.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="rounded-b-[3rem] bg-gradient-to-b from-transparent to-slate-300 px-6 py-20 md:rounded-b-[5rem]">
+        <div className="container mx-auto flex flex-col items-center gap-4">
+          <Heading>Projects</Heading>
+          <div className="flex flex-wrap items-center justify-center gap-4">
+            {Array.from({ length: 6 }).map((_, i) => (
+              <Card key={i} />
+            ))}
           </div>
         </div>
       </section>
