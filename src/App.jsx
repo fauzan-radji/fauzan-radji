@@ -1,5 +1,10 @@
-import { Card } from "./Components";
-import Heading from "./Components/Heading";
+import {
+  AtSymbolIcon,
+  UserIcon,
+  EnvelopeIcon,
+  PaperAirplaneIcon,
+} from "@heroicons/react/24/solid";
+import { Card, Heading, Input } from "./Components";
 import profilePict from "./assets/profile-pict.png";
 
 export default function App() {
@@ -57,6 +62,7 @@ export default function App() {
         </div>
       </section>
 
+      {/* Projects Section */}
       <section className="rounded-b-[3rem] bg-gradient-to-b from-transparent to-slate-300 px-6 py-20 md:rounded-b-[5rem]">
         <div className="container mx-auto flex flex-col items-center gap-4">
           <Heading>Projects</Heading>
@@ -65,6 +71,36 @@ export default function App() {
               <Card key={i} />
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section className="rounded-b-[3rem] bg-gradient-to-b from-transparent to-slate-300 px-6 py-20 md:rounded-b-[5rem]">
+        <div className="container mx-auto flex flex-col items-center gap-4">
+          <Heading>Contact</Heading>
+          <form
+            onSubmit={(e) => e.preventDefault()}
+            className="mx-auto flex w-full max-w-lg flex-col gap-4 rounded-md bg-slate-200 px-8 pb-4 pt-8 shadow-md"
+          >
+            <Input name="name" type="text" placeholder="Name" icon={UserIcon} />
+            <Input
+              name="email"
+              type="email"
+              placeholder="Email"
+              icon={AtSymbolIcon}
+            />
+            <Input
+              name="message"
+              type="textarea"
+              placeholder="Message"
+              icon={EnvelopeIcon}
+            />
+
+            <button className="flex w-max items-center gap-1 self-end rounded bg-slate-500 px-4 py-2 text-slate-200 shadow-md hover:bg-slate-600">
+              Send
+              <PaperAirplaneIcon className="h-4 w-4" />
+            </button>
+          </form>
         </div>
       </section>
     </div>
