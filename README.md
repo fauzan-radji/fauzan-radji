@@ -60,5 +60,9 @@
   <img alt="fauzan-radji's Stats" src="https://github-readme-stats.vercel.app/api?username=fauzan-radji&theme=onedark&show_icons=true&hide_border=true&count_private=true" />
   <img alt="fauzan-radji's GitHub Streak" src="https://streak-stats.demolab.com?user=fauzan-radji&theme=onedark&hide_border=true" />
   <img alt="fauzan-radji's Github Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=fauzan-radji&theme=one-dark&radius=10&hide_border=true&area=true&title_color=e4bf7a&color=8eb573&point=df6d74" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/fauzan-radji/fauzan-radji/output/github-contribution-grid-snake.svg" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fauzan-radji/fauzan-radji/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fauzan-radji/fauzan-radji/output/github-contribution-grid-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/fauzan-radji/fauzan-radji/output/github-contribution-grid-snake.svg" />
+  </picture>
 </p>
