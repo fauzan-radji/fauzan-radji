@@ -15,25 +15,7 @@
 <h2 align="center">Languages and Tools</h2>
 
 <p align="center">
-  <img alt="HTML5" src="https://img.shields.io/badge/-HTML5-05122A?style=flat&logo=html5" />
-  <img alt="CSS3" src="https://img.shields.io/badge/-CSS3-05122A?style=flat&logo=css3" />
-  <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript" />
-  <img alt="PHP" src="https://img.shields.io/badge/-PHP-05122A?style=flat&logo=php" />
-  <img alt="Bootstrap" src="https://img.shields.io/badge/-Bootstrap-05122A?style=flat&logo=bootstrap" />
-  <img alt="Tailwind CSS" src="https://img.shields.io/badge/-Tailwind%20CSS-05122A?style=flat&logo=tailwind-css" />
-  <img alt="Laravel" src="https://img.shields.io/badge/-Laravel-05122A?style=flat&logo=laravel" />
-  <img alt="React" src="https://img.shields.io/badge/-React-05122A?style=flat&logo=react" />
-  <img alt="Next.js" src="https://img.shields.io/badge/-Next.js-05122A?style=flat&logo=next.js" />
-  <img alt="Node.js" src="https://img.shields.io/badge/-Node.js-05122A?style=flat&logo=node.js" />
-  <img alt="Express.js" src="https://img.shields.io/badge/-Express.js-05122A?style=flat&logo=express" />
-  <img alt="MySQL" src="https://img.shields.io/badge/-MySQL-05122A?style=flat&logo=mysql" />
-  <img alt="Kotlin" src="https://img.shields.io/badge/-Kotlin-05122A?style=flat&logo=kotlin" />
-  <img alt="Android" src="https://img.shields.io/badge/-Android-05122A?style=flat&logo=android" />
-  <img alt="Flutter" src="https://img.shields.io/badge/-Flutter-05122A?style=flat&logo=flutter" />
-  <img alt="Git" src="https://img.shields.io/badge/-Git-05122A?style=flat&logo=git" />
-  <img alt="GitHub" src="https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github" />
-  <img alt="Visual Studio Code" src="https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code" />
-  <img alt="Ubuntu" src="https://img.shields.io/badge/-Ubuntu-05122A?style=flat&logo=ubuntu" />
+  <img src="https://skillicons.dev/icons?i=androidstudio,kotlin,gradle,dart,flutter,html,css,js,ts,php,bootstrap,tailwind,laravel,mysql,nodejs,react,vue,nextjs,vite,express,firebase,vercel,npm,md,linux,ubuntu,debian,git,github,ps,regex,vscode&perline=8" />
 </p>
 
 <h2 align="center">Connect with me</h2>
